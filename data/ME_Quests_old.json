@@ -21,10 +21,14 @@
 			"partyexp":100,
 			"leaderexp":0,
 			"items": [
-				{"item:1":2},
-				{"item:2":1},
-				{"weapon:2":1},
-				{"armor:4":1}
+				{"1":2},
+				{"2":1}
+			],
+			"weapons": [
+				{"2":1}
+			],
+			"armors": [
+				{"4":1}
 			],
 			"runScript":""
 		},

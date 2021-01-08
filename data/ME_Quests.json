@@ -1,4 +1,5 @@
 [
+	null,
 	{
 		"id": 1,
 		"name": "My First Quest",
@@ -21,18 +22,122 @@
 			"partyexp":100,
 			"leaderexp":0,
 			"items": [
-				{"1":2},
-				{"2":1}
-			],
-			"weapons": [
-				{"2":1}
-			],
-			"armors": [
-				{"4":1}
+				{
+					"type":"item",
+					"id":1,
+					"amount":2
+				},
+				{
+					"type":"item",
+					"id":2,
+					"amount":5
+				},
+				{
+					"type":"weapon",
+					"id":1,
+					"amount":1
+				},
+				{
+					"type":"armor",
+					"id":4,
+					"amount":1
+				}
 			],
 			"runScript":""
 		},
 		"nextQuest": 0,
+		"startScript":""
+	},
+	{
+		"id": 2,
+		"name": "My First Quest",
+		"type":"Main",
+		"status":0,
+		"text":"This is a test quest for ME_QuestSystem",
+		"goals": [
+			{
+				"goalText":"This is the first goal of this quest",
+				"checkScript":""
+			},
+			{
+				"goalText":"This is the second goal of this quest",
+				"varCount": 0,
+				"varMax": 1
+			}
+		],
+		"rewards": {
+			"gold":200,
+			"partyexp":100,
+			"leaderexp":0,
+			"items": [
+				{
+					"type":"item",
+					"id":1,
+					"amount":2
+				},
+				{
+					"type":"item",
+					"id":2,
+					"amount":5
+				},
+				{
+					"type":"weapon",
+					"id":1,
+					"amount":1
+				},
+				{
+					"type":"armor",
+					"id":4,
+					"amount":1
+				}
+			],
+			"runScript":""
+		},
+		"nextQuest": 0,
+		"startScript":""
+	},
+	{
+		"id": 3,
+		"name": "My First Quest",
+		"type":"Main",
+		"status":0,
+		"text":"This is a test quest for ME_QuestSystem",
+		"goals": [
+			{
+				"goalText":"This is the second goal of this quest",
+				"varCount": 1,
+				"varMax": 2
+			}
+		],
+		"rewards": {
+			"gold":200,
+			"partyexp":200,
+			"leaderexp":100,
+			"items": [
+				{
+					"type":"item",
+					"id":1,
+					"amount":2
+				},
+				{
+					"type":"item",
+					"id":2,
+					"amount":5
+				},
+				{
+					"type":"weapon",
+					"id":1,
+					"amount":1
+				},
+				{
+					"type":"armor",
+					"id":4,
+					"amount":1
+				}
+			],
+			"runScript":""
+		},
+		"nextQuest": 1,
 		"startScript":""
 	}
 ]
